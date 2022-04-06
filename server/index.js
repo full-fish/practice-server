@@ -16,7 +16,7 @@ app.use(
 app.use(cookieParser());
 
 app.get("/", (req, res) => {
-  return res.status(200).send("Hello World");
+  return res.status(200).send("유리 알 하나 부화!");
 });
 
 server = app.listen(port, () => {
